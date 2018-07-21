@@ -2,5 +2,5 @@
 
 ./createDirectories.sh
 ./osx.sh
-./brew.sh
+install/install.sh
 ./initGitRepos.sh
