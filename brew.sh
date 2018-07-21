@@ -18,6 +18,10 @@ brew install wget --with-iri
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg
 
+# Install python
+brew install python
+brew install python@2
+
 # Install more recent versions of some macOS tools.
 brew install grep
 brew install openssh
@@ -36,6 +40,10 @@ brew install lftp
 brew install ack
 brew install unrar
 brew install findutils
+
+# Install IaC
+brew install terraform
+brew install ansible
 
 # Install docker
 brew install docker
