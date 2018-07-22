@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+cd "$(dirname "${BASH_SOURCE[0]}")"
+
+cp keys/github_rsa ${HOME}/.ssh 2> /dev/null
+cp keys/github_rsa.pub ${HOME}/.ssh 2> /dev/null
+
 cd "${HOME}/projects"
 
 declare -a REPOSITORIES=(
