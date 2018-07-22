@@ -22,9 +22,15 @@ brew install curl
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg
 
-# Install python
+# Install Python
 brew install python
 brew install python@2
+
+# Install Node
+brew install node
+
+# Install Java
+#brew install java
 
 # Install Git
 brew install git
@@ -50,9 +56,6 @@ brew install findutils
 brew install gpg
 brew install pg-agent
 brew install pinentry-mac
-
-# Install DB support
-brew isntall sqlite
 
 # Install IaC
 brew install terraform
