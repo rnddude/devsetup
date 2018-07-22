@@ -15,8 +15,12 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
+# Install cask
+brew install cask
+
 # Install `wget` with IRI support.
 brew install wget --with-iri
+brew install curl
 
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg
@@ -25,16 +29,19 @@ brew install gnupg
 brew install python
 brew install python@2
 
-# Install more recent versions of some macOS tools.
-brew install grep
-brew install openssh
+# Install Git
+brew install git
+brew install git-lfs
 
 # Install other useful binaries.
+brew install grep
+brew install openssh
+brew install openssl
+brew install gettext
+brew install readline
 brew install htop
 brew install nmap
 brew install bash-completion
-brew install git
-brew install git-lfs
 brew install ssh-copy-id
 brew install tree
 brew install pcre
@@ -43,26 +50,37 @@ brew install lftp
 brew install ack
 brew install unrar
 brew install findutils
+brew install gpg
+brew install pg-agent
+brew install pinentry-mac
+
+# Install DB support
+brew isntall sqlite
 
 # Install IaC
 brew install terraform
 brew install ansible
+brew install packer
 
-# Install docker
+# Install virtualization
 brew install docker
 brew install docker-machine
 brew install docker-compose
+brew cask install virtualbox
+brew cask install vagrant
 
-# Install cask
-brew install cask
+# Innstall browsers
+brew cask install google-chrome
+brew cask install google-chrome-canary
+brew cask install chromium
+
+# Install tools
 brew cask install atom
 brew cask install sublime
 brew cask install evernote
 brew cask install skitch
-brew cask install google-chrome
 brew cask install keepassx
 brew cask install the-unarchiver
-brew cask install virtualbox
 
 # Remove outdated versions from the cellar.
 brew cleanup
