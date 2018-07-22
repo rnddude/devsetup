@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-# Install Xcode cli tools
-xcode-select --install
-
 # Install Homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew doctor
