@@ -56,6 +56,7 @@ brew install findutils
 brew install gpg
 brew install pg-agent
 brew install pinentry-mac
+brew install rename
 
 # Install IaC
 brew install terraform
