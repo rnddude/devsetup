@@ -77,7 +77,7 @@ brew cask install chromium
 
 # Install tools
 brew cask install atom
-brew cask install sublime
+brew cask install sublime-text
 brew cask install evernote
 brew cask install skitch
 brew cask install keepassx
